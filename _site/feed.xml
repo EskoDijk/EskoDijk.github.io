@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-26T00:03:23+01:00</updated><id>http://localhost:4000/</id><title type="html">Esko Dijk</title><subtitle>Blog &amp; publications.</subtitle><entry><title type="html">Build OpenThread on Windows using Cygwin</title><link href="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html" rel="alternate" type="text/html" title="Build OpenThread on Windows using Cygwin" /><published>2017-09-09T20:42:00+02:00</published><updated>2017-09-09T20:42:00+02:00</updated><id>http://localhost:4000/networking/2017/09/09/build-openthread-on-windows</id><content type="html" xml:base="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html">&lt;p&gt;The open source Thread wireless mesh networking stack &lt;a href=&quot;https://openthread.io/&quot;&gt;OpenThread&lt;/a&gt; contains a nice option to build simulated Thread nodes than can run on your PC. This &lt;a href=&quot;https://codelabs.developers.google.com/codelabs/openthread-simulation&quot;&gt;Google codelabs exercise&lt;/a&gt; explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.&lt;/p&gt;
+
+&lt;p&gt;In Cygwin, the following packages need to be installed first:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;automake
+autoconf
+python2
+pip &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;Python 2
+gcc
+g++
+libtool&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Note that pip can be named “pip2” or “pip”. For Python you need the package “pexpect”. Install it from bash using:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pip2 &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;pexpect&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you don’t have the openthread repo from Github already, clone it into a directory of choice:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/openthread/openthread.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;openthread&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To make sure that line endings are UNIX style, cd to your openthread repo and use the below. Don’t use this if your openthread repo contains local changes!&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git config core.autocrlf &lt;span class=&quot;nb&quot;&gt;false
+&lt;/span&gt;git &lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cached&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git reset &lt;span class=&quot;nt&quot;&gt;--hard&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The repository can be prepared for building using the bootstrap script.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./bootstrap&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Have a look at the output. It should complete without errors. (Errors may point to some missing tool/dependency or presence of Windows style line endings.) Now the POSIX example programs can be built using:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;make &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; examples/Makefile-posix&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After building, the &lt;a href=&quot;https://codelabs.developers.google.com/codelabs/openthread-simulation/index.html#2&quot;&gt;codelabs exercise&lt;/a&gt; to start 2 simulated nodes in separate shell windows can be followed. Using a command like below the first Full Thread Device (FTD) can be started:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./output/x86_64-unknown-cygwin/bin/ot-cli-ftd.exe 1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and in another window a second one:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./output/x86_64-unknown-cygwin/bin/ot-cli-ftd.exe 2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;the default Thread network can be started by a sequence of commands, to be run in both shell windows:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ifconfig up
+panid 0x1234
+thread start&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To confirm the nodes are attached to the network the ‘state’ command can be used. And finally scan the virtual airwaves and wonder where the developers did get their lunch!&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; scan
+| J | Network Name | Extended PAN | PAN | MAC Address | Ch | dBm | LQI |
++---+------------------+------------------+------+------------------+----+-----+-----+
+| 0 | OpenThread | dead00beef00cafe | 1234 | fa5b112e46122b2f | 11 | &lt;span class=&quot;nt&quot;&gt;-20&lt;/span&gt; | 0 |
+Done&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">The open source Thread wireless mesh networking stack OpenThread contains a nice option to build simulated Thread nodes than can run on your PC. This Google codelabs exercise explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.</summary></entry></feed>

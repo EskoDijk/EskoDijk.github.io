@@ -2,7 +2,7 @@
 layout: post
 title:  "Build OpenThread on Windows using Cygwin"
 date:   2017-09-09 19:42:00 +0100
-categories: thread simulation
+categories: networking
 ---
 The open source Thread wireless mesh networking stack [OpenThread](https://openthread.io/) contains a nice option to build simulated Thread nodes than can run on your PC. This [Google codelabs exercise](https://codelabs.developers.google.com/codelabs/openthread-simulation) explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn't it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.
 
@@ -79,3 +79,4 @@ To confirm the nodes are attached to the network the 'state' command can be used
 | 0 | OpenThread | dead00beef00cafe | 1234 | fa5b112e46122b2f | 11 | -20 | 0 |
 Done
 {% endhighlight %}
+
