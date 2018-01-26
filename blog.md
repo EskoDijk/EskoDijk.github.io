@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<div class="home">
+
  {% if site.posts.size > 0 %}
   <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -21,3 +23,5 @@ permalink: /blog/
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {% endif %}
+  
+ </div>
