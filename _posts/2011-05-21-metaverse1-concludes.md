@@ -9,4 +9,4 @@ This week the [Metaverse1 project](http://www.metaverse1.org) on technology and 
 
 Metaverse1 was present on the 3D3D conference. Especially interesting for virtual world fans and those fascinated (or scared) by the [Mirror Worlds vision](https://books.google.nl/books/about/Mirror_Worlds.html?id=jh2U379fq18C&redir_esc=y) is the presentation by GeoSim cities - I include the YouTube video below.
 
-<iframe width="560" height="420" src="http://www.youtube.com/embed/EBCqMG2xMIw?color=white&theme=light"></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/EBCqMG2xMIw?color=white&theme=light"></iframe>
