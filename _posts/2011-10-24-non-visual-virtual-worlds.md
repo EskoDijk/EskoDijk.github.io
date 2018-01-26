@@ -42,7 +42,7 @@ One possible obstacle for researchers and designers alike is that the required t
 
 [2] AlphaSphere relaxation chair or "Spaceship for the inner journey", Wikipedia article, [link](http://en.wikipedia.org/wiki/AlphaSphere)
 
-[3] E.O. Dijk, A. Nijholt, J.B.F. van Erp, E. Kuyper, G. van Wolferen (2010). Audio-tactile stimuli to improve health and well-being - a preliminary position paper, Special Symposium at EuroHaptics 2010, *Haptic and Audio-Visual Stimuli: Enhancing Experiences and Interaction*, pp. 1-10, Amsterdam, July 7th 2010.  [Link to PDF](http://www.eskodijk.nl/doc/Dijk10_Auditory-tactile.pdf")
+[3] E.O. Dijk, A. Nijholt, J.B.F. van Erp, E. Kuyper, G. van Wolferen (2010). Audio-tactile stimuli to improve health and well-being - a preliminary position paper, Special Symposium at EuroHaptics 2010, *Haptic and Audio-Visual Stimuli: Enhancing Experiences and Interaction*, pp. 1-10, Amsterdam, July 7th 2010.  [Link to PDF](http://www.eskodijk.nl/doc/Dijk10_Auditory-tactile.pdf)
 
 [4] Meditainment.com website, [www.meditainment.com](http://www.meditainment.com/)
 
@@ -50,6 +50,6 @@ One possible obstacle for researchers and designers alike is that the required t
 
 [6] Sense Company, [www.sense-company.com](http://www.sense-company.com/)
 
-![Dream beach (c) by Eddy.H]({{ http://www.flickr.com/photos/eedh/5573466077/ }})
+![Dream beach (c) by Eddy.H](http://www.flickr.com/photos/eedh/5573466077/)
 
 
