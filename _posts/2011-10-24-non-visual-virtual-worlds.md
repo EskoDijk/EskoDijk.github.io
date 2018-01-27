@@ -11,6 +11,8 @@ Today, the early beginnings of complex, interactive non-visual worlds have arriv
 
 An existing product I worked with like AlphaSphere [2] already offers such a multi-sensory experience with light, warmth, audio and tactile stimuli, but is limited in its content and it is not interactive (that is, user-responsive). Software that I've created during my work allows scripting of more complex "experiences" which can be realtime adapted to inputs like button presses or measured sensor values. This was used in creating our ["relaxing at the beach" experience](http://images.philips.com/is/content/PhilipsConsumer/Campaigns/CA20151021_Teamsite_Decommision/jetnet/CA20160105_CO_001-nl_nl-jetnet-nightnerds-09102011.pdf) shown at a public event. Another interesting product for creating audio-haptic experiences, the Feel The Music Suit, is being tested by Sense Company [6].
 
+<img src="img/notn-2010-haptics.jpg" alt="Night of the Nerds beach relaxation experience with haptics">
+
 ### Carving out a new research area
 We can take the non-graphical world concept and put it to some good use: call it serious gaming if you like. Let’s define this new research area in which three features play a key role, in addition to the key features for interactive audio environments as listed in [1]:
 
@@ -51,4 +53,5 @@ One possible obstacle for researchers and designers alike is that the required t
 [6] Sense Company, [www.sense-company.com](http://www.sense-company.com/)
 
 <img src="https://c2.staticflickr.com/6/5013/5573466077_403bc7bf3b_z.jpg" alt="Tropical dream beach image">
+
 Image: Dream beach (c) by Eddy.H
