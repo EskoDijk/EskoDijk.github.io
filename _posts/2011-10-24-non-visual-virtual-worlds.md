@@ -50,6 +50,5 @@ One possible obstacle for researchers and designers alike is that the required t
 
 [6] Sense Company, [www.sense-company.com](http://www.sense-company.com/)
 
-![Dream beach (c) by Eddy.H](http://www.flickr.com/photos/eedh/5573466077/)
-
-
+<img src="http://www.flickr.com/photos/eedh/5573466077/" alt="Tropical dream beach image">
+Image: Dream beach (c) by Eddy.H
