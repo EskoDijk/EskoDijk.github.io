@@ -9,7 +9,7 @@ At first sight, a *non-graphical* or *non-visual* virtual world may sound unusua
 
 Today, the early beginnings of complex, interactive non-visual worlds have arrived: there is existing research on how to design interactive audio worlds and audio-only games [1].  However, the full potential of such a technology seems barely exploited at this point in time. One could view a non-graphical virtual environment as a (3D) virtual environment with graphics replaced by other rendering options that together convey a worthwhile experience to the user: think of 3D spatial audio, haptics, motion actuation, colored light, air flows and scents. Obviously, such an environment requires designing new ways of interaction and navigation compared to a graphical environment [1].
 
-An existing product I worked with like AlphaSphere [2] already offers such a multi-sensory experience with light, warmth, audio and tactile stimuli, but is limited in its content and it is not interactive (that is, user-responsive). Software that I've created during my work allows scripting of more complex "experiences" which can be realtime adapted to inputs like button presses or measured sensor values. This was used in creating our ["relaxing at the beach" experience](http://www.geekstijl.nl/tech/tactiele-technologie-reele-virtualiteit/) shown at a public event. Another interesting product for creating audio-haptic experiences, the Feel The Music Suit, is being tested by Sense Company [6].
+An existing product I worked with like AlphaSphere [2] already offers such a multi-sensory experience with light, warmth, audio and tactile stimuli, but is limited in its content and it is not interactive (that is, user-responsive). Software that I've created during my work allows scripting of more complex "experiences" which can be realtime adapted to inputs like button presses or measured sensor values. This was used in creating our ["relaxing at the beach" experience](http://images.philips.com/is/content/PhilipsConsumer/Campaigns/CA20151021_Teamsite_Decommision/jetnet/CA20160105_CO_001-nl_nl-jetnet-nightnerds-09102011.pdf) shown at a public event. Another interesting product for creating audio-haptic experiences, the Feel The Music Suit, is being tested by Sense Company [6].
 
 ### Carving out a new research area
 We can take the non-graphical world concept and put it to some good use: call it serious gaming if you like. Let’s define this new research area in which three features play a key role, in addition to the key features for interactive audio environments as listed in [1]:
@@ -40,7 +40,7 @@ One possible obstacle for researchers and designers alike is that the required t
 ### References
 [1] N. Röber, Interaction with Sound – explorations beyond the frontiers of 3d virtual auditory environments, Ph.D. thesis, Univ. Magdeburg, September 2008. [View thesis here](http://www.x3t.net/thesis.html).
 
-[2] AlphaSphere relaxation chair or "Spaceship for the inner journey", Wikipedia article, [link](http://en.wikipedia.org/wiki/AlphaSphere)
+[2] AlphaSphere relaxation chair or "Spaceship for the inner journey", Wikipedia article. [Link](http://en.wikipedia.org/wiki/AlphaSphere)
 
 [3] E.O. Dijk, A. Nijholt, J.B.F. van Erp, E. Kuyper, G. van Wolferen (2010). Audio-tactile stimuli to improve health and well-being - a preliminary position paper, Special Symposium at EuroHaptics 2010, *Haptic and Audio-Visual Stimuli: Enhancing Experiences and Interaction*, pp. 1-10, Amsterdam, July 7th 2010.  [Link to PDF](http://www.eskodijk.nl/doc/Dijk10_Auditory-tactile.pdf)
 
