@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-26T00:03:23+01:00</updated><id>http://localhost:4000/</id><title type="html">Esko Dijk</title><subtitle>Blog &amp; publications.</subtitle><entry><title type="html">Build OpenThread on Windows using Cygwin</title><link href="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html" rel="alternate" type="text/html" title="Build OpenThread on Windows using Cygwin" /><published>2017-09-09T20:42:00+02:00</published><updated>2017-09-09T20:42:00+02:00</updated><id>http://localhost:4000/networking/2017/09/09/build-openthread-on-windows</id><content type="html" xml:base="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html">&lt;p&gt;The open source Thread wireless mesh networking stack &lt;a href=&quot;https://openthread.io/&quot;&gt;OpenThread&lt;/a&gt; contains a nice option to build simulated Thread nodes than can run on your PC. This &lt;a href=&quot;https://codelabs.developers.google.com/codelabs/openthread-simulation&quot;&gt;Google codelabs exercise&lt;/a&gt; explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-28T15:59:34+01:00</updated><id>http://localhost:4000/</id><title type="html">Esko Dijk - Blog &amp;amp; publications</title><subtitle>This is my personal website with blog, publications list and patents. If you would like to get in touch please send a mail or tweet.</subtitle><entry><title type="html">Creative writing for spammers</title><link href="http://localhost:4000/general/2018/01/26/creative-writing.html" rel="alternate" type="text/html" title="Creative writing for spammers" /><published>2018-01-26T21:37:58+01:00</published><updated>2018-01-26T21:37:58+01:00</updated><id>http://localhost:4000/general/2018/01/26/creative-writing</id><content type="html" xml:base="http://localhost:4000/general/2018/01/26/creative-writing.html">&lt;p&gt;Today I received this message from a spammer who surely must have done a creative writing course. I could vividly imagine bank officials dropping 5 million Dollars cash on my doorstep, with humble apologies on behalf of all the world’s finance ministers - for all those times the “scam artists” have wronged me. Keep sending the good stuff guys! If you think this is good then go see &lt;a href=&quot;https://www.ted.com/talks/james_veitch_this_is_what_happens_when_you_reply_to_spam_email&quot;&gt;this TED talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;From the Desks Of:
+Manager: Mr. Jamie Dimon
+JP Morgan Chase Bank New York
+270 Park Ave. New York City
+Telephone. +347-508-6954
+25/01/2018
+
+
+How are you today, we want to inform you that United Nations  to pay 100 (One Hundred)
+scam victims US$5,000,000,each. You are listed and approved for this payment as one of
+the beneficiaries to be paid this amount as compensation.As a result of this laudable 
+recommendations, it is imperative to bring to your notice that during the last U.N. 
+meetings held in New York, United States of America by all the Minister Of Finance Of 
+All Countries, it was alarmed so much by the rest of the world in the meetings on the 
+loose of funds by various foreigners to the scams artists, Lawyers and some dubious 
+Bank officials operating in syndicates all over the world today. In other to redeem 
+the good image of each country, the Secretary General of the U.N has ordered the 
+payment of US$5,000,000, USD each to the affected victims in pursuance with the U.N 
+recommendations.
+
+Due to the corrupt and inefficient Banking Systems in most banks around the world, the 
+payments are to be made by JP Morgan Chase Bank.According to the number of applicants 
+at hand, 21 Beneficiaries has been paid, 60% of the victims are from the United States,
+while about 40% are from other parts of the world. We still have more than 75% left to
+be paid the compensations of  US$5,000,000, USD each... it will cost you to obtain the
+documents from our Government to back you up to receive your US$5,000,000, million 
+United States Dollars only.and make your choice of your payment from our payment methods 
+so that your Fund  will be release to you, (1) Cash Delivery to your doorstep (2) ATM 
+Card with us.(3) bank to bank. Kindly send your personal details to us  prove your 
+identification.
+
+
+1.Name........................
+2.Shipping Address................
+3.Telephone Number .................
+4.Age and Marital Status. .............
+5.Occupation.....................
+6. Payment method.. ..............
+
+Note; that as soon as we receive the needed information from you, we will further 
+transfer your funds into your nominated bank account within 24hours from today,contact 
+me, ooffice434@yahoo.es
+
+Waiting for your immediate response.
+
+CEO Mr. Jamie Dimon
+JP Morgan Chase Bank New York
+270 Park Ave. New York City
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Today I received this message from a spammer who surely must have done a creative writing course. I could vividly imagine bank officials dropping 5 million Dollars cash on my doorstep, with humble apologies on behalf of all the world’s finance ministers - for all those times the “scam artists” have wronged me. Keep sending the good stuff guys! If you think this is good then go see this TED talk.</summary></entry><entry><title type="html">Build OpenThread on Windows using Cygwin</title><link href="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html" rel="alternate" type="text/html" title="Build OpenThread on Windows using Cygwin" /><published>2017-09-09T20:42:00+02:00</published><updated>2017-09-09T20:42:00+02:00</updated><id>http://localhost:4000/networking/2017/09/09/build-openthread-on-windows</id><content type="html" xml:base="http://localhost:4000/networking/2017/09/09/build-openthread-on-windows.html">&lt;p&gt;The open source Thread wireless mesh networking stack &lt;a href=&quot;https://openthread.io/&quot;&gt;OpenThread&lt;/a&gt; contains a nice option to build simulated Thread nodes than can run on your PC. This &lt;a href=&quot;https://codelabs.developers.google.com/codelabs/openthread-simulation&quot;&gt;Google codelabs exercise&lt;/a&gt; explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.&lt;/p&gt;
 
 &lt;p&gt;In Cygwin, the following packages need to be installed first:&lt;/p&gt;
 
@@ -52,4 +102,100 @@ thread start&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 | J | Network Name | Extended PAN | PAN | MAC Address | Ch | dBm | LQI |
 +---+------------------+------------------+------+------------------+----+-----+-----+
 | 0 | OpenThread | dead00beef00cafe | 1234 | fa5b112e46122b2f | 11 | &lt;span class=&quot;nt&quot;&gt;-20&lt;/span&gt; | 0 |
-Done&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">The open source Thread wireless mesh networking stack OpenThread contains a nice option to build simulated Thread nodes than can run on your PC. This Google codelabs exercise explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.</summary></entry></feed>
+Done&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">The open source Thread wireless mesh networking stack OpenThread contains a nice option to build simulated Thread nodes than can run on your PC. This Google codelabs exercise explains in more detail how this can be used to simulate a very simple Thread network consisting of 2 nodes. A Linux VM is used to run the simulated nodes. Now wouldn’t it be great to just run your simulated nodes directly in Windows 10 as .exe executables? One way to get there is to build openthread in the Cygwin environment.</summary></entry><entry><title type="html">Journal of Virtual Worlds Research publishes MPEG-V papers</title><link href="http://localhost:4000/game/2012/01/02/journal-virtual-worlds-mpegv.html" rel="alternate" type="text/html" title="Journal of Virtual Worlds Research publishes MPEG-V papers" /><published>2012-01-02T08:33:25+01:00</published><updated>2012-01-02T08:33:25+01:00</updated><id>http://localhost:4000/game/2012/01/02/journal-virtual-worlds-mpegv</id><content type="html" xml:base="http://localhost:4000/game/2012/01/02/journal-virtual-worlds-mpegv.html">&lt;p&gt;The Journal of Virtual Worlds Research, Volume 4, Number 3 &lt;a href=&quot;http://jvwresearch.org/index.php/past-issues/43-mpeg-v-and-other-standards&quot;&gt;link here&lt;/a&gt; publishes a collection of papers about the MPEG-V standard which was co-developed by the Metaverse1 project. The papers are available for free download!&lt;/p&gt;</content><author><name></name></author><summary type="html">The Journal of Virtual Worlds Research, Volume 4, Number 3 link here publishes a collection of papers about the MPEG-V standard which was co-developed by the Metaverse1 project. The papers are available for free download!</summary></entry><entry><title type="html">Non-visual virtual worlds: created with audio, haptics and your imagination</title><link href="http://localhost:4000/game/2011/10/24/non-visual-virtual-worlds.html" rel="alternate" type="text/html" title="Non-visual virtual worlds: created with audio, haptics and your imagination" /><published>2011-10-24T10:45:12+02:00</published><updated>2011-10-24T10:45:12+02:00</updated><id>http://localhost:4000/game/2011/10/24/non-visual-virtual-worlds</id><content type="html" xml:base="http://localhost:4000/game/2011/10/24/non-visual-virtual-worlds.html">&lt;p&gt;At first sight, a &lt;em&gt;non-graphical&lt;/em&gt; or &lt;em&gt;non-visual&lt;/em&gt; virtual world may sound unusual. However, one could say that well-known media like written novels, radio drama and audio books in fact create a virtual world with clearly non-visual means. But – these worlds are not very interactive in the way that 3D virtual environments and games are.&lt;/p&gt;
+
+&lt;p&gt;Today, the early beginnings of complex, interactive non-visual worlds have arrived: there is existing research on how to design interactive audio worlds and audio-only games [1].  However, the full potential of such a technology seems barely exploited at this point in time. One could view a non-graphical virtual environment as a (3D) virtual environment with graphics replaced by other rendering options that together convey a worthwhile experience to the user: think of 3D spatial audio, haptics, motion actuation, colored light, air flows and scents. Obviously, such an environment requires designing new ways of interaction and navigation compared to a graphical environment [1].&lt;/p&gt;
+
+&lt;p&gt;An existing product I worked with like AlphaSphere [2] already offers such a multi-sensory experience with light, warmth, audio and tactile stimuli, but is limited in its content and it is not interactive (that is, user-responsive). Software that I’ve created during my work allows scripting of more complex “experiences” which can be realtime adapted to inputs like button presses or measured sensor values. This was used in creating our &lt;a href=&quot;http://images.philips.com/is/content/PhilipsConsumer/Campaigns/CA20151021_Teamsite_Decommision/jetnet/CA20160105_CO_001-nl_nl-jetnet-nightnerds-09102011.pdf&quot;&gt;“relaxing at the beach” experience&lt;/a&gt; shown at a public event. Another interesting product for creating audio-haptic experiences, the Feel The Music Suit, is being tested by Sense Company [6].&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/notn-2010-haptics.jpg&quot; alt=&quot;Night of the Nerds beach relaxation experience with haptics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;carving-out-a-new-research-area&quot;&gt;Carving out a new research area&lt;/h3&gt;
+&lt;p&gt;We can take the non-graphical world concept and put it to some good use: call it serious gaming if you like. Let’s define this new research area in which three features play a key role, in addition to the key features for interactive audio environments as listed in [1]:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Provide a user with pleasant or exciting tactile (haptic) stimuli linked to events in the virtual environment;&lt;/li&gt;
+  &lt;li&gt;Use of implicit, low-effort methods for a user to control the virtual experience (e.g. using user body motions, or vocal/bodily reactions, changes in bio-signals and perhaps limited arm/leg gestures);&lt;/li&gt;
+  &lt;li&gt;An application context and media content for healthcare and well-being applications.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In short, the aim is to create &lt;em&gt;interactive audio-haptic virtual environments for healthcare and well-being&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The intended technology allows a user to experience an entertaining virtual environment while sitting or lying in a comfortable and relaxed positions, even with the eyes closed. Also multi-user experiences would be possible, in principle. Likely, systems built along these lines will serve entirely different markets than current graphics-intensive 3D virtual environments. One potential novel application is in the area of well-being and healthcare as argued in [3], because well-chosen tactile stimuli can relax a user, feel good, induce emotions, relax the muscles, or even reduce pain. The combination of haptics with audio has even more potential [3] for creating compelling feel-good experiences than using haptics or audio alone - as is mostly the case in today’s solutions.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-case-example&quot;&gt;Use case example&lt;/h3&gt;
+&lt;p&gt;An example use case is an interactive relaxation chair situated in a hospital or care institute. A user lies in the chair with the eyes closed and  listens to a combination of nature sounds, music and voice coaching, while enjoying tactile stimulation and perceiving the color and warmth of light through the eyelids. Compare it for example to lying on a quiet beach on a sunny day with your eyes closed. The type of audio a user perceives could be similar to that provided by the company Meditainment [4] which is used for therapy and relaxation purposes, including use in hospitals and airplanes. This content is designed to immerse a user in an imaginary dream-like virtual world with high level of detail. Contrary to Meditainment, in our use case the experience can be guided or controlled by the user. For example, a user could use a gesture of two arms held up to indicate “start flying” or “fly higher”. Adding other gestures would allow a user to actually explore the world, dive in virtual water (triggering modified audio, light and tactile effects), or re-visit favorite places.&lt;/p&gt;
+
+&lt;p&gt;Optionally, bio-signals such as heart and respiration signal can be sensed as well [3] and the obtained information on a user’s level of relaxation can be used as part of the virtual experience narrative. This might even allow subtle new forms of bio-feedback training.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-challenges&quot;&gt;Design challenges&lt;/h3&gt;
+&lt;p&gt;Being a new and relatively unexplored medium, audio-haptic virtual environments do not yet have an established set of design rules and design patterns. University research is a very suitable means to map this unexplored territory, taking into account existing design knowledge from fields like music composition, tactile effect design, game design, cinema, radio drama or even (medical) interior architecture.&lt;/p&gt;
+
+&lt;h3 id=&quot;relevance&quot;&gt;Relevance&lt;/h3&gt;
+&lt;p&gt;The primary guiding principle in this kind of research work should be to establish its relevance and benefit for specific user groups, for example in the healthcare domain. Although non-graphical virtual environments may not be relevant to the current mainstream gaming/simulation industry, there are compelling use cases in healthcare and well-being niche markets. For example, anxiety reduction in patients prior to examinations or treatment is a potential market. It can also be used as a new form of “relaxation gaming” examples of which already exist commercially (e.g. Wild Divine). In such games, creating a unique experience and escape from daily life is more important than having intensive user control (think about the 20 action keys in your typical 3D shooter!) or getting the high score.&lt;/p&gt;
+
+&lt;p&gt;This research topic may build on previous work on user-adaptive relaxation systems that use audio, haptics and light as the rendering means [3][5]. A working hypothesis for a relaxation application using such technology is that long-term treatment effectiveness and user enjoyment can be significantly improved by adding tactile stimuli and easy-to-use interactive elements, compared to a fixed-content audio-only solution like [4] where one linear storyline is played always in the same way.&lt;/p&gt;
+
+&lt;p&gt;One possible obstacle for researchers and designers alike is that the required technology (especially the &lt;em&gt;right&lt;/em&gt; haptic/tactile stimulation), development kits and content authoring kits are not readily available. Time will tell whether such technology will be available on the market. I hope that one day I’m able to de-stress and at the same time explore the virtual worlds of my imagination - in a very real way!&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;p&gt;[1] N. Röber, Interaction with Sound – explorations beyond the frontiers of 3d virtual auditory environments, Ph.D. thesis, Univ. Magdeburg, September 2008. &lt;a href=&quot;http://www.x3t.net/thesis.html&quot;&gt;View thesis here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[2] AlphaSphere relaxation chair or “Spaceship for the inner journey”, Wikipedia article. &lt;a href=&quot;http://en.wikipedia.org/wiki/AlphaSphere&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] E.O. Dijk, A. Nijholt, J.B.F. van Erp, E. Kuyper, G. van Wolferen (2010). Audio-tactile stimuli to improve health and well-being - a preliminary position paper, Special Symposium at EuroHaptics 2010, &lt;em&gt;Haptic and Audio-Visual Stimuli: Enhancing Experiences and Interaction&lt;/em&gt;, pp. 1-10, Amsterdam, July 7th 2010.  &lt;a href=&quot;http://www.eskodijk.nl/doc/Dijk10_Auditory-tactile.pdf&quot;&gt;Link to PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[4] Meditainment.com website, &lt;a href=&quot;http://www.meditainment.com/&quot;&gt;www.meditainment.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[5] E.O. Dijk, A. Weffers-Albu (2010). Breathe with the Ocean: a System for Relaxation using Audio, Haptic and Visual Stimuli, Special Symposium at EuroHaptics 2010, &lt;em&gt;Haptic and Audio-Visual Stimuli: Enhancing Experiences and Interaction&lt;/em&gt;, pp. 47-60, Amsterdam, July 7th 2010. &lt;a href=&quot;http://www.eskodijk.nl/doc/Dijk10_Breathe-with-the-ocean.pdf&quot;&gt;Link to PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[6] Sense Company, &lt;a href=&quot;http://www.sense-company.com/&quot;&gt;www.sense-company.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/6/5013/5573466077_403bc7bf3b_z.jpg&quot; alt=&quot;Tropical dream beach image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image: Dream beach (c) by Eddy.H&lt;/p&gt;</content><author><name></name></author><summary type="html">At first sight, a non-graphical or non-visual virtual world may sound unusual. However, one could say that well-known media like written novels, radio drama and audio books in fact create a virtual world with clearly non-visual means. But – these worlds are not very interactive in the way that 3D virtual environments and games are.</summary></entry><entry><title type="html">Interaction with a virtual world of infinite (unlimited) detail</title><link href="http://localhost:4000/game/2011/06/26/virtual-world-of-infinite-detail.html" rel="alternate" type="text/html" title="Interaction with a virtual world of infinite (unlimited) detail" /><published>2011-06-26T21:58:10+02:00</published><updated>2011-06-26T21:58:10+02:00</updated><id>http://localhost:4000/game/2011/06/26/virtual-world-of-infinite-detail</id><content type="html" xml:base="http://localhost:4000/game/2011/06/26/virtual-world-of-infinite-detail.html">&lt;p&gt;In past years I have spent time in virtual worlds,  more time reading about them, and even more time in virtual world projects. So that should be a good topic to write about.&lt;/p&gt;
+
+&lt;p&gt;Current 3D games and virtual worlds, although sometimes amazingly detailed, still have only a limited level of detail in the graphical models and textures – compared to reality! Also virtual worlds often cover only a relatively small space for players to explore. This means that inevitably a player’s feel of realism is compromised.&lt;/p&gt;
+
+&lt;h1 id=&quot;limitations&quot;&gt;Limitations&lt;/h1&gt;
+
+&lt;p&gt;First let’s list here the main reasons for these limitations in world detail:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Graphics hardware performance is limited;      e.g. polygon throughput or texture memory limits.&lt;/li&gt;
+  &lt;li&gt;Design resources are limited; creating highly      detailed worlds manually is not feasible (e.g. think of designing all the      leaves on a tree or all individual stones in a river bedding – approaches      that do not scale).&lt;/li&gt;
+  &lt;li&gt;Memory/storage/network resources are      limited; for example a building in a virtual world that requires many      terabytes of geometry data is not feasible on today’s gaming platforms.&lt;/li&gt;
+  &lt;li&gt;Computational resources are limited;      simulating many millions of entities in real-time (including AI and      physics) on current platforms is infeasible. For example, simulating      millions of individual insects that inhabit a forest seems impossible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Despite of these four limiting factors, having virtual worlds with near-infinite detail is not necessarily impossible, using some compromises and clever solutions.  The key is to realize the &lt;em&gt;feeling&lt;/em&gt; of a highly detailed reality without necessarily simulating it all.&lt;/p&gt;
+
+&lt;h1 id=&quot;relevance&quot;&gt;Relevance&lt;/h1&gt;
+
+&lt;p&gt;Having detailed virtual worlds could enable a deeper gaming experience and also new ways of gameplay. For example, in a hunting type of game the hunter could inspect the grass in detail, looking for traces and footsteps that help to track prey that has recently passed. Or in a simulated forest, a player could mark some leaves on a specific tree as a way to communicate a secret message to a guild member. In serious-gaming applications, more detail may help to increase immersion in the world. It seems worth investigating how such “unlimited” detail could be obtained in a practical way.&lt;/p&gt;
+
+&lt;h1 id=&quot;overcoming-the-limitations&quot;&gt;Overcoming the limitations?&lt;/h1&gt;
+
+&lt;p&gt;The company &lt;a href=&quot;http://www.euclideon.com/technology/&quot;&gt;Euclideon&lt;/a&gt; claims to have a solution for limitation #1 above (graphics hardware limits), by using a novel algorithm for rendering point cloud geometry models instead of using polygon geometry. Such a solution may help, but still – don’t the other limitations remain? For the classical polygon models, the technique of model-swapping may also get us some way towards overcoming limitation #1.&lt;/p&gt;
+
+&lt;p&gt;One approach to overcome limitation #2, limited availability of design resources, is to use algorithms for procedural generation of world content. Do (AI) methods exist to extract world design rules automatically from examples of worlds designed by people? This could certainly be an interesting research field.&lt;/p&gt;
+
+&lt;p&gt;Limitation #3 (memory availability) could be tackled by using pseudo-random number generators to generate parameters, which are then used as input to procedural content generators. Taken to the extreme, with this approach a single random seed number could effectively represent an entire world, so it can be generated on the fly at the user’s machine without requiring any storage – if the content generation algorithms are good enough!&lt;/p&gt;
+
+&lt;p&gt;Finally, limitation #4 (limited computational resources) could be overcome by abandoning simulation realism and striving only for believability or the feel of immersion. For example, using a multi-step simulation level-of-detail (LoD) approach with low detail used for entities (like NPCs) that do not have a main role in the simulation or which are not close to any one of the human controlled characters.&lt;/p&gt;
+
+&lt;h1 id=&quot;problems-aka-research-topics&quot;&gt;Problems (a.k.a. research topics)&lt;/h1&gt;
+
+&lt;p&gt;In applying the above techniques to overcome the limitations, some problems remain, especially in multi-player simulations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How can interaction events of players with      the world be recorded, represented and shared with the simulation      platforms of other players? Take the example of a player picking a random      leaf from a tree. Can another player later see that the leaf was picked? Can      this change event be represented as a data object describing a      “delta” onto the procedurally generated tree-with-leaves, and be      shared to other players on demand? Ideally the “delta” data is      only shared to other players that come close to the specific tree and      start to look at it in detail.&lt;/li&gt;
+  &lt;li&gt;How to deal with the flood of      “delta” events that accumulate over time while playing? Should      there be a “forgetting” mechanism so that after some time the      game world resets back to its initial (procedurally generated) state? For      example the picked leaves of a tree will grow back after 5 simulated days.&lt;/li&gt;
+  &lt;li&gt;How to treat relatively unimportant      entities (NPCs) that were in some way persistently affected or modified through      interaction with a player? Should they be simulated (AI/motion) with a higher      level of detail from the point in time of interaction onwards? Is this      feasible and scalable over time, or do we need a “forgetting”      mechanism as well to avoid that over time numerous entities have to be      simulated all the time in a high level of detail?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Although we have only scratched the surface of this topic, the problems that appear by this scratching are abundant. Sounds like a great topic for virtual worlds / game research!&lt;/p&gt;</content><author><name></name></author><summary type="html">In past years I have spent time in virtual worlds, more time reading about them, and even more time in virtual world projects. So that should be a good topic to write about.</summary></entry><entry><title type="html">Metaverse1 project successfully concludes</title><link href="http://localhost:4000/game/2011/05/21/metaverse1-concludes.html" rel="alternate" type="text/html" title="Metaverse1 project successfully concludes" /><published>2011-05-21T13:37:58+02:00</published><updated>2011-05-21T13:37:58+02:00</updated><id>http://localhost:4000/game/2011/05/21/metaverse1-concludes</id><content type="html" xml:base="http://localhost:4000/game/2011/05/21/metaverse1-concludes.html">&lt;p&gt;This week the &lt;a href=&quot;http://www.metaverse1.org&quot;&gt;Metaverse1 project&lt;/a&gt; on technology and standardization in 3D virtual worlds successfully concluded with a final review. Over the past two and a halve years I have participated in this project with pleasure! The YouTube videos &lt;a href=&quot;https://www.youtube.com/watch?v=exKohOpWXRk&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/results?search_query=metaverse1+project&quot;&gt;more&lt;/a&gt;) give a nice flavour of the topics that were addressed in this project.&lt;/p&gt;
+
+&lt;p&gt;Metaverse1 was present on the 3D3D conference. Especially interesting for virtual world fans and those fascinated (or scared) by the &lt;a href=&quot;https://books.google.nl/books/about/Mirror_Worlds.html?id=jh2U379fq18C&amp;amp;redir_esc=y&quot;&gt;Mirror Worlds vision&lt;/a&gt; is the presentation by GeoSim cities - I include the YouTube video below.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/EBCqMG2xMIw?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">This week the Metaverse1 project on technology and standardization in 3D virtual worlds successfully concluded with a final review. Over the past two and a halve years I have participated in this project with pleasure! The YouTube videos here, more) give a nice flavour of the topics that were addressed in this project.</summary></entry></feed>
