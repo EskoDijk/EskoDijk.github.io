@@ -4,7 +4,8 @@ title: Patents
 permalink: /patents/
 ---
 
-# Granted patents
+# Granted Patents
+
 - Erdmann, B., Dijk, E.O., Denteneer, T.J.J. (2014). External control lighting systems based on third party content, WO2015036886A3, US20160212830A1, BR112016004970, CN105766062.
   - Granted EU patent EP3045017B1 on April 5, 2017.
   - Granted Japanese patent JP6045758B2 on December 14, 2016.
