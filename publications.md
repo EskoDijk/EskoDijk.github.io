@@ -9,6 +9,7 @@ permalink: /publications/
 - Co-author of Thread Group (2017), Thread Specification 1.1.1, February 2017. [Link](https://threadgroup.org/ourresources#Specifications)
 
 # 2016
+- Zappaterra, L., Dijk, E. (2016). Software Updates for Wireless Connected Lighting Systems: requirements, challenges and recommendations, Internet of Things Software Update Workshop (IoTSU) workshop June 13-14, 2016. [Link](https://www.iab.org/activities/workshops/iotsu/)
 - Contributed to A. Bhattacharyya, S. Bandyopadhyay, A. Pal, T. Bose, Constrained Application Protocol (CoAP) Option for No Server Response, IETF RFC 7967, DOI 10.17487/RFC7967, August 2016. [Link](https://tools.ietf.org/html/rfc7967)
 - Contributed to C. Bormann, Z. Shelby, Block-Wise Transfers in the Constrained Application Protocol (CoAP), IETF RFC 7979, DOI 10.17487/RFC7979, August 2016. [Link](https://tools.ietf.org/html/rfc7959)
 - Co-author of Thread Group, Thread Specification 1.1.0, July 2016. [Link](https://threadgroup.org/ourresources#Specifications)
