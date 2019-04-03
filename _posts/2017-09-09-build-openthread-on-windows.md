@@ -11,10 +11,10 @@ In Cygwin, the following packages need to be installed first:
 {% highlight bash %}
 automake
 autoconf
+make
 python2
-pip for Python 2
-gcc
-g++
+pip2 for Python 2
+gcc-g++
 libtool
 {% endhighlight %}
 
